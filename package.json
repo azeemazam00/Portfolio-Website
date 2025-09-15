@@ -1,0 +1,26 @@
+{
+    "name": "portfolio-website",
+    "version": "1.0.0",
+    "description": "Multi-page static website for Bake & Co",
+    "main": "index.js",
+    "scripts": {
+      "lint:html": "htmlhint \"src/**/*.html\"",
+      "lint:css": "stylelint \"styles/**/*.css\"",
+      "lint": "npm run lint:html && npm run lint:css"
+    },
+    "keywords": [
+      "static",
+      "website",
+      "lint",
+      "htmlhint",
+      "stylelint"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "htmlhint": "^1.0.5",
+      "stylelint": "^15.0.0",
+      "stylelint-config-standard": "^31.0.0"
+    }
+  }
+  
